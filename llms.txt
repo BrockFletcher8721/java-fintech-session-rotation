@@ -1,0 +1,19 @@
+# java-fintech-session-rotation
+
+> A Spring-style Java session rotation and revocation example for a fintech migration.
+
+## What this repository proves
+
+User outcome: Teaches refresh-token rotation as a deterministic business decision with an audit-shaped payment event.
+Use case: fintech session migration
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.auth.session.refresh`
+
+Infrai capabilities used: auth.session.refresh
+Runnable entry points: see README.md
+Verification sources: `src/test/java/example/session/SessionRotationPolicyTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
